@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+    
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+#navbar{
+  /* background-color:#636060; */
+
+}
+.navbar-content ul li a{
+/* color: rgb(255, 255, 255); */
+color: #000;
+text-transform: capitalize;
+font-size: 22px;
+font-weight: 600;
+
+}
+.logo img{
+  width: 50px;
+  border-radius: 50%;
+}
+.img{
+  /* background-image: url('../public/image/baner\ img.jpg'); */
+  background-image: url('image/baner\ img.jpg');
+
+  background-size:100% 100% ;
+  background-repeat: no-repeat;
+  height: 550px;
+}
+.cardh,h1{
+text-align: center;
+color: black;
+font-family: cursive;
+margin-top: 10px;
+}
+hr {
+  border: none;
+  border-bottom: 4px solid black; /* underline style */
+  margin: 20px auto; /* adjust margin as needed */
+  width: 20%; /* adjust width as needed */
+}
+.cards{
+  /* background-color: #000000; */
+  padding-bottom: 30px;
+}
+.card{
+  box-shadow: 4px -3px 14px 0px;
+
+}
+.table .table-head{
+  background-color: #6c7ae0;
+}
+.card-body h2{
+  text-transform: capitalize;
+}
+.card-body p{
+  text-transform: capitalize;
 }
